@@ -1,0 +1,34 @@
+
+       Notes: https://www.codewithharry.com/tutorial/html-semantic-tags/
+
+                SEMANTIC TAGS:
+    Why Use Semantic Tags?
+        They enhance SEO, improve accessibility, and make your code easier to read and maintain.
+
+    Here are some commonly used semantic tags in HTML:
+
+       (i) header: Contains introductory content.
+       (ii) footer: Holds footer information.
+       (iii) article: Encapsulates a self-contained composition.
+       (iv) section: Represents a standalone section.
+       (v) aside: Contains content aside from the content it is placed in.
+       (vi) nav: Holds navigation links.
+
+    
+    CHATGPT:
+
+       1.nav:
+       Imagine you are on a website, and at the top or side, there are buttons like "Home," "About Us," "Services," and "Contact." These buttons help you navigate or move around the website to find different information.
+
+       In HTML, when you put these navigation buttons inside a <nav> tag, you're telling the web browser, "Hey, these are the navigation links for my site."
+
+       2. article:
+       The <article> tag in HTML is like a container for a standalone piece of content. Imagine you're reading a blog, and each blog post is a separate, complete story. Each of these stories can be put inside an <article> tag.
+
+       3. aside:
+       The <aside> tag in HTML is like a container for content that is related to the main content but is somewhat separate or tangential. It's often used for sidebars, pull quotes, advertisements, or anything that provides additional context to the main content.
+           <aside> is saying, "Inside here, you'll find content related to the main story, but not the main story itself."
+
+       4. section:
+        The <section> tag in HTML is like a container for a thematic grouping of content. It's used to group together related content on a webpage.
+            <section> is saying, "Inside here, you'll find a group of content related to a specific theme or topic."

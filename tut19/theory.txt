@@ -1,0 +1,15 @@
+ One can import or link a font to the html file from Google fonts.
+
+ COLORS:
+            /* https://codepen.io/web-dot-dev/pen/ZELGraM */
+    Follow the above link to study all the named colors available is CSS
+
+
+Methods to access colors in CSS:
+    Color keyword
+    Hex Color Code
+    RGB
+    RGBA, where A denotes alpha ie, opacity of the color</li>
+    HSL
+
+ 

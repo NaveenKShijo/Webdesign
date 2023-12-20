@@ -1,0 +1,5 @@
+ link: https://www.codewithharry.com/tutorial/css-box-model/
+
+ box-sizing: border-box;   <--- VIMP
+ Along with specifying height and width, if you specify box sizing as border-box, then you are telling that the specified height and width is not only the size of content, but also along with padding and border. Otherwise, extra height and width will be taken for padding and border.
+ 

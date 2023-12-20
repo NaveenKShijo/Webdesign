@@ -1,0 +1,23 @@
+        Link of Notes: https://www.codewithharry.com/tutorial/html-entities/
+
+            MISCELLANEOUS TAGS:
+    1. HTML code tag --> <code>
+        For multiline code snippets, it's common to combine the <code> tag with the <pre> tag:
+            eg:
+        <pre><code>Your multiline code here</code></pre>
+
+    2. HTML Quotation tag 
+    3. HTML Canvas
+    4. HTML Global Attributes
+    5. HTML Entities
+        Common HTML entities:
+             &lt;  for <
+             &gt;  for >
+             &amp; for &
+             &nbsp; for a non-breaking space
+             &copy; for ©
+
+    6. Character sets
+     
+     
+    

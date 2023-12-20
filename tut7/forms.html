@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form to apply for Qiskit Research Analyst</h1>
+    <form method="post">
+        <div>
+            <label for="User_name">ENTER USERNAME:</label>
+            <input type="text" id="User_name" name="Username" placeholder="User_name">
+        </div>
+        
+        <div>
+            <label for="Age">Age: </label>
+            <input type="number" id = "Age" name="Age">
+        </div>
+        
+        <div>
+            <label for="Gender">Enter Gender:</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+        </div>
+        
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email">
+        </div>
+        
+        <div>
+           <label for="Quali"> Qualifications:</label>
+           
+           <select name="Quali_opt" id="Quali">
+                <option value="dummy">Choose</option>
+                <option value="sslc">10th</option>
+                <option value="plustwo">12th</option>
+                <option value="Degree">Degree</option>
+           </select>
+        </div>
+        <div>
+           <label > Skills:</label>
+            <input type="checkbox" name="skills" id ="C++">
+            <label for="C++">C++</label>
+            <input type = "checkbox" name ="skills" id =Java >
+            <label for="Java">Java</label>
+        </div>
+        <div> 
+            <label for="comment"> Comment </label>
+            
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter the comments here maahn!!1z"></textarea>
+        </div>
+        <div>
+            <input type ="submit" value="Submit ">
+        </div>
+        
+    </form>
+
+    <!--    Combining Text area and select   -->
+    <form action="/submit">
+    
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+ HTML notes:    https://www.codewithharry.com/tutorial/html-home/
+ HTML cheatsheet: https://www.codewithharry.com/blogpost/html-cheatsheet/
+ 
+ tut4 - Heading, paragraphs & links
+ tut5 - Image, Lists & Tables
+ tut6 - SEO & Core Web Vitals
+ tut7 - Forms and input tags
+ tut8 - Inline & Block elements in HTML
+ tut9 - Id & Classes
+ tut10 - Audio, Video & Media
+ tut11 - Semantic Tags
+ tut12 - Miscellaneous Tags
+
+ tut13 - Project 1
+
+ tut14 - Introduction to CSS
+ tut15 - Inline, internal & external CSS
+ tut16 - 
+
+ tut17 - CSS Selectors MasterClass
+ tut18 - CSS Box model- Margin, Padding & Borders
+ tut19 - Fonts & Colors
+
+ tut20 - Project 2
+
+ tut21 -CSS specificity & Cascade
+ tut22 -
+ tut23 -

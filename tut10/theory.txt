@@ -1,0 +1,63 @@
+
+                    VIDEO, AUDIO &  MEDIA
+    
+VIDEO TAG:
+        <video src="video.mp4" controls></video>
+               'controls' is a mandatory attribute for videos
+
+        Attributes for <video> Tag:
+    (i)  src: Specifies the path to the video file.
+    (ii) controls: Adds video controls, like play, pause, and volume.
+    (iii)autoplay: Automatically starts playing the video when the page loads.
+    (iv) loop: Repeats the video once it ends.
+    (v)  muted: Mutes the video by default.
+    (vi) poster: Specifies an image to be displayed before the video starts playing.
+    (vii)width and height: Specifies the dimensions of the video.
+
+AUDIO TAG:
+
+     <audio src="song.mp3"  controls autoplay loop> </audio>
+
+        Attributes for <audio> Tag:
+    (i)src: Specifies the path to the audio file.
+    (ii)controls: Adds audio controls, like play, pause, and volume.
+    (iii)autoplay: Automatically starts playing the audio when the page loads.
+    (iv)loop: Repeats the audio once it ends.
+    (v)muted: Mutes the audio by default.
+    (vi)preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none')
+        
+        The preload attribute can take three values:
+
+            1.none: This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only be loaded when the user initiates playback.
+            eg:
+            <audio src="audio.mp3" preload="none"></audio>
+            
+            2.auto: This value suggests that the browser should preload the entire audio file when the page loads. This option is suitable for small audio files or cases where bandwidth is not a significant concern.
+            eg:
+            <audio src="audio.mp3" preload="auto"></audio>
+            
+            3.metadata: This value indicates that only the metadata of the audio file, such as duration and basic information, should be preloaded. The actual audio content is not loaded until the user initiates playback.
+            eg:
+            <audio src="audio.mp3" preload="metadata"></audio>
+
+                        
+SVG TAG:
+    Scalable Vector Graphics (SVG) has become an indispensable part of modern web development. SVG enables developers tcreate high-quality, scalable graphics that look crisp at any size or resolution.
+        SVG can be embedded in HTML in several ways:
+
+    (i)Inline SVG: Directly writing the SVG XML code within HTML.
+    (ii)Using an <img> tag: Point the src attribute to an SVG file.
+            xmlns="http://www.w3.org/2000/svg" <-- This is namespace declaration and is essential in img.svg(example).
+    (iii)Using CSS: Setting SVG as a background image in a CSS file.
+
+IFRAME TAG:
+    iFrames, or Inline Frames, are an integral part of modern web development. They allow you to embed another HTML page within your current page. 
+
+    Attributes of iFrame
+    Several attributes can enhance the functionality of an iFrame:
+
+    (i)src: Specifies the URL of the page to embed.
+    (ii)height and width: Define the dimensions.
+    (iii)frameborder: Indicates whether to display a border.
+    (iv)scrolling: Controls the scrollbars.
+    (v)name: For targeting the iFrame in JavaScript.
