@@ -1,0 +1,28 @@
+      
+      IMAGE:
+    1. <img> is a self-closing/empty tag.
+    2. Attributes include: 
+            width , height, src and alt (This attribute takes action when there is a mistake in the source of the image).
+        
+      
+       TABLES:
+    1. <table> is a paired tag.
+    2. It has 3 groups - head <thead>, body <tbody> and foot <tfoot>.
+    3. <tr> is a paired tag which specifies the contents in a row.
+    4. Inside a row, the content may be either Heading <th> or Data <td>.
+    5. colspan & rowspan are attributes for merging cells. 
+    6. <caption> is a paired tag which is used to give caption to the table. It should be inside table 
+        tag, but outside 3 groups.
+    7. cellspacing is an attribute of table tag to specify the distance between cells.
+
+
+        LIST:
+    1. Ordered list <ol>, Unordered list <ul> and Definition List <dl>
+    2. <li> to denote the elements in the list.
+    3. Definition list contains <dt> to specify the term and <dd> to define the term.
+    4. In unordered list, there are different list icons: 
+       eg: <ul type = "square">
+       *disc (default), *circle, *square, *none
+    5. In ordered list, there are different icons and they are 
+      eg: <ol type = "i">
+      *1 (default), *A ,*a, *i, *I .

@@ -1,0 +1,34 @@
+
+        Forms:
+1. Two methods of forms : post & get
+2. Main attributes are: id & name. 'id' gives unique id to each element, while 'name' is used to signify the data to     
+   server.
+3. Important data types discussed here are:
+   * text
+   * number
+   * radio
+   * email
+   * options (syntax is different)
+   * checkbox
+   * textarea
+   * submit
+4. New HTML 5 attributes are:
+    (i)Placeholder
+    (ii)required
+    (iii)autofocus
+5. HTML 5 validation attributes:
+    (i)required
+    (ii)pattern
+6. Other attributes used are:
+    (i)for
+    (ii)type
+    (iii)id 
+    (iv)name
+    (v)value
+7.  Tags used are:
+    <label>
+    <input>
+    <select>
+    <option>
+    <textarea>
+    <div>
