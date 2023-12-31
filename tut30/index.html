@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --firscolor:rgb(186, 77, 219);
+            --seccolor:rgb(202, 149, 200);
+            --defpad:2px;
+            --defopac:60%;
+            --font-family: 'Arial', sans-serif;
+            --bg-image: url('background.jpg');
+            /* Note that, here we use user-defined names */
+            /* CSS variables can hold color, numeric, length, percentage, string & URL values  */
+
+        }
+        /* The above one is global variable */
+
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .nav{
+            background-color:var(--firscolor);
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+        ul{
+            display: flex;
+            /* It is used to make the lists inline, in the same horizontal line */
+        }
+        ul li{
+            opacity:var(--defopac);
+            /* list-style-position: inside; */
+            list-style:none;
+            /* margin:10px; */
+            padding: 10px;
+            border:var(--defpad) solid var(--seccolor,green);  
+            
+        }
+        ul li:nth-child(2){
+            --firscolor:red;
+            /* Above we have overwritten a global variable with a local variable */
+
+            background-color: var(--firscolor,blue);
+            /* In the above case, blue is introduced to be used if it fails to find the variable firstcolor */
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>AI Credits </li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa illum praesentium culpa maxime numquam at ex est, consequatur ea rerum reiciendis fuga error temporibus corrupti! Eum, aliquid? Ducimus nostrum dolor error itaque rerum.
+    </div>
+</body>
+</html>

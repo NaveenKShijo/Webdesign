@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing units</title>
+    <style>
+        body{
+            font-size:16px;
+        }
+        
+       
+        .bod
+        {
+            border: 5px solid blue;
+            /* width:1448px;  pixels*/
+            width: 50vw; /* 50% of viewport-width */
+            height: 50vh; /* 50% of viewport-height */
+            background-color: greenyellow;
+            margin: 50px auto; /* Here 50px is for vertical margin & auto is for horizontal margin */
+        }
+        .bod p{
+            font-size: 2rem; /* Para inside block1 will have a font-size of 32px */
+        }
+        .bod2
+        {
+            border: 5px solid blue;
+            /* width:1448px;  pixels*/
+            width: 80vw; /* 50% of viewport-width */
+            height: 90vh; /* 50% of viewport-height */
+            background-color: greenyellow;
+            margin: 10px auto;
+            font-size: 20px; /* Lorem content will have a content size of 2opx */
+        }
+        .bod2 p{
+            font-size:2em; /* paragraph content of bod2 will have font-size: 40px */
+        }
+        .bod3{
+            border: 4px gold solid;
+            color: red;
+            width: 50vmax; /* Understand vmax and vmin thoroughly, have not understood it till */
+            height: 100vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="bod">This is a body Haaa ahaa
+        <p>Thsi is a para inside block1</p>
+    </div>
+    <div class="bod2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi modi error ipsa architecto nihil eligendi minima consectetur adipisci ab. Sed, accusantium voluptate commodi dolor tempore dolores quia voluptas veritatis consequatur.
+        <p>Hai this is another paragraph within a div
+        </p>
+    </div> 
+    <div class="bod3">
+        <pre>Well this is div 3
+              Welcome to this new world 
+        </pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non id neque harum alias illum aperiam dicta cum temporibus ea! Amet, maxime. Blanditiis modi accusamus, nesciunt quod ullam assumenda nam inventore laudantium provident sed, officia, a voluptatum quae corrupti dolor possimus! Dolor adipisci ab eveniet saepe earum sapiente aut voluptates.
+    </div>
+</body>
+</html>

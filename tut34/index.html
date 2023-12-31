@@ -1,0 +1,45 @@
+<!-- Don't use float and clear. you just need to know about it   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS float & clear</title>
+    <style>
+        .card{
+            border: 3px solid black;
+            
+            display: flow-root;
+            /* If it is not used to prevent the image from overflowing out of the container */
+            /* The size of the container will depend on the amount of text content */
+        }
+        .cards{
+            padding: 3px;
+            border: 5px solid red;
+        }
+        .card :nth-child(3){
+            background-color: aqua;
+            clear:right;
+            /* the above feature is used to keep the right side of the 3rd element of the div from occupied by any other element.*/
+            
+            /* clear:both; */
+            /* To clear both left and right*/
+        }
+        img{
+            
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://cdn-media-2.freecodecamp.org/w1280/5f9c9a4c740569d1a4ca24c2.jpg" height="200px">
+        <div class="cards">card1</div>      
+
+        <div class="cards">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellendus odio, cupiditate eligendi suscipit earum? Nemo consectetur repellendus modi laboriosam fugiat! Quos, nulla dolorem consequatur modi obcaecati dicta officiis dolor aut officia incidunt, ratione veniam? Voluptas, incidunt debitis quas dignissimos fugiat nostrum commodi veniam autem at accusamus. Corporis itaque excepturi animi! Amet, tempore necessitatibus perspiciatis rem laudantium, laboriosam repellendus nobis possimus eius quasi aspernatur eligendi mollitia quos harum, maxime et expedita. Vitae velit mollitia facilis similique, in, doloremque fugit ipsum voluptate quaerat excepturi iusto. Consectetur eligendi rem soluta ducimus cupiditate nostrum veniam ullam pariatur natus esse? Nobis culpa cumque quis laudantium ea obcaecati sed ullam iure a. Repellat optio, illo nesciunt explicabo asperiores quae illum nihil at dolorem alias omnis deserunt vero magnam veritatis debitis repudiandae. Repudiandae in voluptas, corporis maxime impedit repellat asperiores officiis eveniet minus enim ullam perspiciatis aliquid neque quae laboriosam quas blanditiis dolore natus. Minus, quisquam nulla? Minima atque illo rerum nihil, eaque, in accusantium dolores harum consectetur saepe laborum! Quae est fugit optio voluptas, ipsum eveniet corrupti asperiores suscipit non praesentium, eos nobis aliquid vel quos modi illo ex consequuntur quaerat sapiente dicta, labore blanditiis. Quisquam illo voluptatibus quasi repudiandae minus alias neque eligendi dolorum?</div>
+
+        <div class="cards">card1</div>
+    </div>
+</body>
+</html>

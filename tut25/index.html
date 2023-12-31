@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling lists with CSS</title>
+    <style>
+        nav ul li{
+            /* list-style:malayalam; */
+            /* list-style:none; */
+            color:red;
+            background-color: aqua;
+            border:2px solid black;
+            /* To include marker inside the border and to give background color, we use
+                list-style-position: inside */
+            
+            list-style-position: inside;
+            /* to put an image as the marker, follow below steps */
+                /* list-style-image:  url('Screenshot.png'); */
+            /* To put a particular emoji or symbol as the marker, -->*/
+                /* list-style-type:'😂'; */
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>R&D</li>
+            <li>Pricing</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+</body>
+</html>

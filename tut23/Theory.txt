@@ -1,0 +1,8 @@
+
+
+Only in the case of block & inline-block elements, the margin will be set from the top. In the case of a pure inline element, margin will not be set from the top.
+
+display:inline; // To make a block element inline
+display: inline-block; // To make a block element   combine with features of inline
+display: none; // To remove the element from being displayed
+visibility: hidden; // To hide the element along with reserving the space.

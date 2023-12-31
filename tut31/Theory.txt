@@ -1,0 +1,4 @@
+
+@media not|only mediatype and (condition){
+            CSS-code
+        } 

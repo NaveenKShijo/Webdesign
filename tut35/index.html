@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS selectors</title>
+    <style>
+        /* .box :first-child{
+            background-color: red;
+        }
+        .box :nth-child(2){
+            background-color: green;
+        } */
+
+
+        /* .box ::first-line{
+            color:green;
+        } */
+        /* the above command will make the first line of all the elements in the div green */
+
+
+        /* .box *{
+            background-color: blue;
+        } */
+        /* This selector targets all descendants of elements with the class .box. The * is a universal selector, meaning it matches any element. */
+
+
+        /* [simple="Naveen"]{
+            margin-top:20px;
+        } */
+        /* This is attribute selector */
+
+
+        /* p,a, .box{
+            background-color: yellow;
+        } */
+        /* This is grouping of selectors */
+        
+        
+        /* .box :nth-child(odd){
+            color:blueviolet;
+        } */
+
+
+        /* .box :nth-last-child(1){
+            color:green;
+        } */
+        /* While using this <p> tag also becomes green because, <p> is a grandchild of box or child of boxes, hence it becomes last child of box. To avoid <p>, use the below syntax */
+
+        /* .box > .boxes:last-child {
+            color: green;
+        } */
+
+
+        /* .boxes::before{
+            content:"Just peeping out"
+        }
+        .boxes::after{
+            content:"This is the after-effect"
+        } */
+        /* To dynamically insert content. Here, there is a mistake, refer to other resources */
+
+
+        ::selection{
+            background-color:black;
+            color:violet;
+        }
+        /* To change the  color and bg-color of text when it is selected */
+
+
+        .boxes::first-letter{
+            color:peru;
+            font-size:45px;
+        }
+
+
+        input::placeholder{
+            color:blue;
+            background-color:gray;
+        }
+
+       
+</style>
+</head>
+<body>
+    <div class="box">
+        <div simple="Naveen" class="boxes">
+            <p>This is a para</p>
+            box1
+        </div>
+        <div class="boxes">box2</div>
+        <div class="boxes">box3</div>
+        <input type="text"  placeholder="Type your Name here">
+</div>
+</body>
+</html>

@@ -1,6 +1,10 @@
  HTML notes:    https://www.codewithharry.com/tutorial/html-home/
  HTML cheatsheet: https://www.codewithharry.com/blogpost/html-cheatsheet/
  
+ CSS notes: https://www.codewithharry.com/tutorial/css-home/
+ CSS cheatsheet: https://www.codewithharry.com/blogpost/css-cheatsheet/
+
+ 
  tut4 - Heading, paragraphs & links
  tut5 - Image, Lists & Tables
  tut6 - SEO & Core Web Vitals
@@ -11,7 +15,7 @@
  tut11 - Semantic Tags
  tut12 - Miscellaneous Tags
 
- tut13 - Project 1
+ tut13 - Exercise 1
 
  tut14 - Introduction to CSS
  tut15 - Inline, internal & external CSS
@@ -21,8 +25,29 @@
  tut18 - CSS Box model- Margin, Padding & Borders
  tut19 - Fonts & Colors
 
- tut20 - Project 2
+ tut20 - Exercise 2
 
- tut21 -CSS specificity & Cascade
- tut22 -
- tut23 -
+ tut21 -CSS specificity & Cascade  (Attribute selector-> involved in code)
+ tut22 -CSS Sizing Units 
+ tut23 -CSS display property, Flexbox & Grid 
+ tut24 -CSS shadows and outlines
+ tut25 -Styling Lists in CSS
+ tut26 -CSS overflow properties
+ tut27 -Exercise2 solution
+ tut28 -CSS Position Property
+
+ tut29- Exercise3
+
+ tut30 - CSS Variables
+ tut31 - CSS Media Queries
+ tut32 - Exercise3 solution
+
+ tut33- Exercise 4
+
+ tut34- CSS float & clear
+ tut35- More on CSS selectors
+ tut36- Exercise4 solution
+
+ tut37- Exercise 5
+
+ tut38 -CSS Flexbox

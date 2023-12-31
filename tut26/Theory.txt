@@ -1,0 +1,13 @@
+Overflow properties:
+    auto
+    scroll 
+    hidden
+    clip
+    overflow: x-property y-property
+
+White-space properties:
+    nowrap: This feature ensures that the content does not fall to the new line.
+
+Text-overflow properties:
+    ellipsis: When the content overflows, it is truncated by 3 dots (...).
+    

@@ -1,0 +1,33 @@
+
+Syntax of shadows:
+    box-shadow: h-offset v-offset blur spread color inset;
+    eg:
+        .div-element { box-shadow: 5px 5px 15px 5px #888888; }
+    Note: 
+        h & v offset can be controlled in the styles group in the inspect option of the Chrome.
+
+OUTLINES:
+    An outline is a line that is drawn around elements, outside the borders, to make the element "stand out". It's commonly used for accessibility purposes, like highlighting focused elements.
+        The Syntax for Outlines is as follows:
+            outline: width style color;
+       width: Sets the outline width.
+       style: Determines the style of the outline such as solid, dotted, or dashed.
+       color: Sets the outline color.
+    Here is an example:
+        .button-element:focus { outline: 2px solid blue; } 
+    
+Differences between Outlines and Borders:
+    While both can visually appear similar, outlines differ from borders in a few ways:
+
+        (i)Position: Outlines don't take up space; they're drawn around the element, outside of any border.
+        (ii)Offset: Using the outline-offset property, you can set the space between an outline and the edge or border of an element.
+        (iii)Width: Borders can have varying widths on different sides, outlines have a uniform width.
+        (iv)Rounded Corners: Borders can have rounded corners using border-radius, while outlines generally cannot.
+
+        Here's how the outline-offset property works:
+
+            (i)Positive Values: The outline is drawn outside the border, creating space between the element and the outline. For example, outline-offset: 5px; will create a 5-pixel gap between the outline and the border of the element.
+
+            (ii)Negative Values: The outline is drawn inside the border, overlapping with the content of the element. For example, outline-offset: -2px; will cause the outline to overlap the content of the element by 2 pixels.
+
+            (iii)Zero Value: The outline is drawn directly on the border of the element, with no additional space.

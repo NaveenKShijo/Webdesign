@@ -3,3 +3,7 @@
  box-sizing: border-box;   <--- VIMP
  Along with specifying height and width, if you specify box sizing as border-box, then you are telling that the specified height and width is not only the size of content, but also along with padding and border. Otherwise, extra height and width will be taken for padding and border.
  
+ padding: 10px 20px;
+    Here, 10px is for top-bottom padding, while 20px is for right-left padding
+
+ padding: 10px 0 30px 0

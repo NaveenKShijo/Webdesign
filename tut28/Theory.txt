@@ -1,0 +1,23 @@
+
+    The default position property is static. At this stage, top, left & z-index features cannot be implemented. To implement them, "position:relative" is chosen
+
+    top: This feature enables us to move the element in vertical direction.
+    left: It allows us to shift the element in horizontal direction.
+    z-index: When two elements are stacked upon one another, the color of the element with higher z-index will be displayed.
+
+Position properties:
+    (i)static (default)
+    (ii)relative
+    (iii)absolute: 
+            In this case, the div will be in position relative to the nearest positioned element (ie., position except static).
+    (iv)fixed:
+            As ads are fixed at certain locations of a website as we scroll through the website. This is achieved through fixed position.
+                It will only work when there is top or left.
+    (v)sticky:
+            This property allows us to keep certain elements at top, as we scroll through website,as freezing rows in Excel.
+                It will only work when there is top or left.
+            It is used to implement nav bars.
+                
+
+
+
